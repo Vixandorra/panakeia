@@ -1,0 +1,218 @@
+header {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    background: linear-gradient(to top, #000 0%, transparent 50%),  #f6f4fa  url("../static/pic/back.png") 50% no-repeat  ;
+    background-size: cover;
+    width: 100%;
+    min-height: 1006px;
+    color: white;
+}
+
+@media screen and (min-width: 1500px) {
+    header {
+        min-height: 1050px;
+    }
+}
+
+@media screen and (max-width: 960px) {
+    header {
+        min-height: 1700px;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    header {
+        min-height: 1600px;
+    }
+}
+
+.header_center, .menu_right  {
+    padding-right: 0;
+}
+
+.menu_right {
+    float: right;
+}
+
+header .navbar {
+    min-height: 100px;
+    border-radius: 0;
+}
+
+.navbar-brand {
+    height: 100px;
+    padding: 30px 0;
+    font-size: 26px;
+    line-height: 15px;
+    color: #000;
+}
+
+.navbar-nav .active a {
+    background: none;
+}
+
+@media (min-width: 768px) {
+    .navbar-nav>li>a {
+        padding-top: 40px;
+        padding-bottom: 40px;
+    }
+
+    .navbar-nav>li>a:focus,
+    .navbar-nav>li>a:hover {
+        padding-top: 35px;
+        padding-bottom: 35px;
+        padding-left: 0;
+        padding-right: 0;
+    }
+}
+
+.navbar-nav>.active>a {
+    padding-top: 35px;
+    padding-bottom: 30px;
+    padding-left: 0;
+    padding-right: 0;
+}
+
+.navbar-default .navbar-nav .active a h3 {
+    padding: 5px 15px;
+}
+
+.navbar-default .navbar-nav>.active>a>h3,
+.navbar-default .navbar-nav>.active>a:focus>h3,
+.navbar-default .navbar-nav>.active>a:hover>h3 {
+    color: white;
+    background-color: #dd4b2b;
+    border-radius: 20px;
+}
+
+
+.navbar-default .navbar-nav a:focus h3,
+.navbar-default .navbar-nav a:hover h3 {
+    padding: 5px 15px;
+    color: white;
+    background-color: #dd4b2b;
+    border-radius: 20px;
+}
+
+
+
+.slogan {
+    margin: 0 auto;
+    margin-top: 300px;
+    margin-bottom: 85px;
+    text-align: center;
+    text-shadow: 1px 1px 1px #000;
+}
+
+.slogan h1 {
+    font-size: 50px;
+    margin-top: 0;
+}
+
+.menu_list li {
+    text-align: center;
+
+}
+
+.menu_list li .image {
+    width: 45%;
+    height: 110px;
+    background-position: center;
+    border-radius: 50%;
+    border: solid 5px white;
+    margin: 0 auto;
+}
+
+.menu_list li:first-child .image  {
+    content: url("../static/pic/canvas_1.png");
+    background-size: cover;
+    background-position: center;
+}
+
+.menu_list li:nth-child(2) .image {
+    background: url("../static/pic/canvas_2.png") 50% no-repeat;
+    background-size: 180%;
+    background-position: center;
+}
+
+.menu_list li:last-child .image {
+    background: url("../static/pic/canvas_3.png") 0% no-repeat;
+    background-size: 160%;
+    background-position: center;
+}
+
+
+
+@media screen and (max-width: 768px) {
+    .menu_list li {
+        height: 280px;
+    }
+
+    .menu_list li .image  {
+        width: 20%;
+        height: 140px;
+    }
+
+    .navbar>.container .navbar-brand, .navbar>.container-fluid .navbar-brand {
+         margin-left: -30px;
+     }
+}
+
+@media screen and (min-width: 960px) {
+    .menu_list li {
+        height: 350px;
+    }
+
+    .menu_list li .image  {
+        width: 16%;
+        height: 150px;
+    }
+}
+
+@media screen and (min-width: 1200px) {
+    .menu_list li {
+        height: 320px;
+    }
+
+    .menu_list li .image  {
+        width: 33%;
+        height: 80px;
+    }
+}
+
+@media screen and (min-width: 1366px) {
+    .menu_list li {
+        height: 280px;
+    }
+
+    .menu_list li .image  {
+        min-width: 41%;
+        height: 100px;
+    }
+
+    .menu_list li h4 {
+        padding-top: 10px;
+    }
+}
+
+
+
+@media screen and (min-width: 1500px) {
+    .menu_list li {
+        height: 320px;
+    }
+
+    .menu_list li .image  {
+        min-width: 42%;
+        height: 120px;
+    }
+
+    .menu_list li h4 {
+        padding-top: 10px;
+    }
+
+    header .button .btn-default {
+        width: 17%;
+    }
+}

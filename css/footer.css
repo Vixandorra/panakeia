@@ -1,0 +1,135 @@
+footer {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    min-height: 1000px;
+    width: 100%;
+    background: white;
+    color: #000;
+    margin-left: 0;
+}
+
+footer ul {
+    padding-top: 40px;
+    color: white;
+    column-count: 3;
+    height: 250px;
+}
+
+@media screen and (max-width: 768px) {
+    footer ul {
+        column-count: 2;
+        height: 330px;
+    }
+}
+
+
+
+footer ul li {
+    text-align: center;
+}
+
+
+footer .btn-default {
+    color: white;
+}
+
+.orange .btn-default  {
+    background: #dd4b2b;
+}
+
+.gray .btn-default  {
+    background: #4b4e73;
+}
+
+footer .text {
+    padding-bottom: 25px;
+}
+
+footer .border-box {
+    height: 305px;
+}
+
+footer .border {
+    height: 90%;
+    border: solid 1px #4b4e73;
+}
+
+footer .orange_list {
+    background: #dd4b2b;
+    height: 270px;
+}
+
+
+footer .contacts {
+    background: linear-gradient(to top, #000 0%, transparent 100%), url("../static/pic/canvas_3.png") 50% 100% no-repeat;
+    background-size: cover;
+    text-align: center;
+    min-height: 270px;
+    color: white;
+    padding: 100px;
+}
+
+footer .center {
+    height: 650px;
+    padding: 50px;
+}
+
+@media screen and (max-width: 960px) {
+    footer .border-box {
+        display: none;
+    }
+
+    footer .center {
+        height: 720px;
+    }
+}
+
+@media screen and (min-width: 1200px) {
+    footer .center {
+        height: 700px;
+        padding: 28px 70px 0;
+    }
+
+    .left_block, .right_block {
+        margin-bottom: 10px;
+    }
+
+    .left_block {
+        padding-right: 0;
+    }
+
+    .right_block {
+        padding-left: 0;
+    }
+
+    .left_block .text_block {
+        margin-top: 30px;
+
+    }
+
+    .right_block .text_block {
+        margin-top: 35px;
+        padding-left: 10px;
+    }
+
+    .border-box {
+        height: 305px;
+        padding: 0;
+    }
+
+    .right_block .border-box {
+        padding-right: 20px;
+    }
+
+    .border {
+        margin-top: 20px;
+    }
+
+    footer .button .btn-default {
+        padding: 8px;
+        width: 37%;
+    }
+}
+
