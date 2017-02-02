@@ -87,7 +87,6 @@ main .button {
     }
 }
 
-
 @media screen and (min-width: 1500px) {
     .news li {
         height: 500px;
@@ -113,8 +112,6 @@ main .button {
 .news li .image  {
     padding: 0;
 }
-
-
 
 .newsletter {
     height: 260px;
